@@ -1,0 +1,244 @@
+#lineItems textarea {
+    height: 30px;
+    width: 98% !important;
+    max-width: 98% !important;
+}
+
+#lineItems input[type="text"],
+input[type="email"] {
+    width: 98% !important;
+    max-width: 98% !important;
+}
+
+#lineItems select {
+    /* width: 98% !important; */
+    max-width: 98% !important;
+    background: none;
+    padding-right: 5px !important;
+    
+}
+
+#lineItems select:focus {
+    border-color:red !important;
+    border-width: 3px;
+}
+
+input.sqsEnabled {
+    margin: 0px !important;
+}
+
+#lineItems {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+/* #lineItems .li-tr {
+    vertical-align: top;
+} */
+
+/* #lineItems textarea:focus {
+    width: 150px !important;
+    position: absolute;
+    height: 4em;
+    transition: all 0.1s ease;
+    margin-top: -15px;
+} */
+
+#lineItems .totals input {
+    width: 50% !important;
+}
+
+#lineItems .button {
+    margin: 1px !important;
+}
+
+/* Group */
+
+.grp-del-icon {
+    float: right;
+    padding: 10px;
+}
+
+/* #lineItems .totals {
+    width: 400px;
+} */
+
+#lineItems .group > thead, tfoot {
+    background-color: #f5f5f5;
+    display: block;
+}
+
+#lineItems .group > thead > tr > td {
+   display: inline-block !important;
+}
+
+#lineItems .group > thead:nth-of-type(1) > tr > td [type="text"] {
+    width: 90% !important;
+}
+
+#lineItems .group > thead > tr > td input:not([type="checkbox"]), textarea {
+    margin: 0px 2px 2px 2px;
+}
+
+.dragHandle {
+    margin: 5px;
+    color: grey;
+}
+
+.ui-sortable-placeholder {
+    border: 0.5px dashed red !important;
+    text-align: center !important;
+}
+
+.ui-sortable-placeholder td {
+    padding: 10px;
+}
+
+.ui-sortable-helper td {
+    height: 60px !important;
+    overflow: hidden;
+}
+
+.min-col {
+    width: 35px !important;
+}
+
+/* Table */
+
+.table_wrapper .yui-ac-container {
+    position: absolute !important;
+}
+
+.table_wrapper .glyphicon {
+    position: initial;
+}
+
+.outer_wrapper {
+    /* margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+    /* max-width: fit-content; */
+    max-height: fit-content;
+}
+
+.table_wrapper {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: fit-content;
+    max-height: 66.4vh;
+    margin-top: 22px;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+.product_group {
+    min-width: max-content;
+    border-collapse: separate;
+    border-spacing: 0px;    
+}
+
+.account_group {
+    min-width: max-content;
+    border-collapse: separate;
+    border-spacing: 0px;    
+}
+
+.tax_group {
+    min-width: max-content;
+    border-collapse: separate;
+    border-spacing: 0px;    
+}
+
+.product_group th{
+    position: sticky; 
+    top: 0px;    
+    background-color: #31708f;
+    color: #ffffff;    
+    text-align: center;
+    font-weight: normal;
+    z-index: 2;
+    /* font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black; */
+} 
+
+.account_group th{
+    position: sticky; 
+    top: 0px;    
+    background-color: #31708f;
+    color: #ffffff;    
+    text-align: center;
+    font-weight: normal;
+    z-index: 2;
+    /* font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black; */
+}
+.tax_group th{
+    position: sticky; 
+    top: 0px;    
+    background-color: #31708f;
+    color: #ffffff;    
+    text-align: center;
+    font-weight: normal;
+    z-index: 2;
+    /* font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black; */
+}
+/* .product_group th, .product_group td {    
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+} */
+
+.product_group td {
+    /* text-align: left;     */
+    /* font-size: 15px; */
+    border: 1px solid #eee;
+    /* padding-left: 20px; */
+}
+.account_group td {
+    /* text-align: left;     */
+    /* font-size: 15px; */
+    border: 1px solid #eee;
+    /* padding-left: 20px; */
+}
+.tax_group td {
+    /* text-align: left;     */
+    /* font-size: 15px; */
+    border: 1px solid #eee;
+    /* padding-left: 20px; */
+}
+.product_group .freeze-col {
+    position: sticky;
+    left: 0;
+}
+.account_group .freeze-col {
+    position: sticky;
+    left: 0;
+}
+.tax_group .freeze-col {
+    position: sticky;
+    left: 0;
+}
+.product_group thead tr:nth-child(2) th {
+    top: 19px;
+}
+
+.account_group thead tr:nth-child(2) th {
+    top: 19px;
+}
+.tax_group thead tr:nth-child(2) th {
+    top: 19px;
+}
+#lineItems th {
+    z-index: 2;
+}
+
+.input-number {
+    text-align: right;
+}

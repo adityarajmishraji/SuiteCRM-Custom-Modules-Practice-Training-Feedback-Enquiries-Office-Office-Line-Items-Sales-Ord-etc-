@@ -1,0 +1,31 @@
+<?php
+ 
+$hook_version = 1;
+$hook_array = array();
+
+$hook_array['after_ui_frame'] = array();
+$hook_array['after_ui_frame'][] = array(
+    1,
+    'after_ui_frame', 
+    'custom/Unify/modules/UNF_SalesOrder/Hooks.php',
+    'SalesOrder',
+    'afterUIFrame'
+);
+$hook_array['after_ui_frame'] = array();
+$hook_array['after_ui_frame'][] = array(
+    3,
+    'after_ui_frame', 
+    'custom/Unify/modules/UNF_SalesOrder/Hooks.php',
+    'SalesOrder',
+    'afterUIFrame2'
+);
+$hook_array['before_save'] = array();
+$hook_array['before_save'][] = array(
+    2,
+    'before_save',
+    'custom/Unify/modules/UNF_SalesOrder/Hooks.php',
+    'SalesOrder',
+    'beforeSaveMethod'
+);
+
+// <!-- custom/Unify/modules/UNF_SalesOrder/Hooks.php -->

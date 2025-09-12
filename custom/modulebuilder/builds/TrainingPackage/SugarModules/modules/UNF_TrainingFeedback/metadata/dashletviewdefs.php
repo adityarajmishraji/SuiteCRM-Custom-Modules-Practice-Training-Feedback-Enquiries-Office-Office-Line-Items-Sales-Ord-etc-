@@ -1,0 +1,214 @@
+<?php
+$dashletData['UNF_TrainingFeedbackDashlet']['searchFields'] = array (
+  'date_entered' => 
+  array (
+    'default' => '',
+  ),
+  'date_modified' => 
+  array (
+    'default' => '',
+  ),
+  'name' => 
+  array (
+    'default' => '',
+  ),
+  'rating' => 
+  array (
+    'default' => '',
+  ),
+  'assigned_user_id' => 
+  array (
+    'default' => '',
+  ),
+);
+$dashletData['UNF_TrainingFeedbackDashlet']['columns'] = array (
+  'name' => 
+  array (
+    'width' => '40%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'default' => true,
+    'name' => 'name',
+  ),
+  'training_session_title' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_TRAINING_SESSION_TITLE',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'training_session_title',
+  ),
+  'date_of_training' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_DATE_OF_TRAINING',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'date_of_training',
+  ),
+  'trainer_name' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_TRAINER_NAME',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'trainer_name',
+  ),
+  'rating' => 
+  array (
+    'type' => 'decimal',
+    'label' => 'LBL_RATING',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'rating',
+  ),
+  'date_entered' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_DATE_ENTERED',
+    'default' => true,
+    'name' => 'date_entered',
+  ),
+  'description' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
+    'default' => false,
+    'name' => 'description',
+  ),
+  'improvement_suggestions' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_IMPROVEMENT_SUGGESTIONS',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'improvement_suggestions',
+  ),
+  'feedback_comments' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_FEEDBACK_COMMENTS',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'feedback_comments',
+  ),
+  'created_by_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'created_by_name',
+  ),
+  'score_engagement' => 
+  array (
+    'type' => 'int',
+    'label' => 'LBL_SCORE_ENGAGEMENT',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'score_engagement',
+  ),
+  'modified_by_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_MODIFIED_NAME',
+    'id' => 'MODIFIED_USER_ID',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'modified_by_name',
+  ),
+  'columns' => 
+  array (
+    'name' => 
+    array (
+      'width' => '40',
+      'label' => 'LBL_LIST_NAME',
+      'link' => true,
+      'default' => true,
+    ),
+    'date_entered' => 
+    array (
+      'width' => '15',
+      'label' => 'LBL_DATE_ENTERED',
+      'default' => true,
+    ),
+    'date_modified' => 
+    array (
+      'width' => '15',
+      'label' => 'LBL_DATE_MODIFIED',
+    ),
+    'created_by' => 
+    array (
+      'width' => '8',
+      'label' => 'LBL_CREATED',
+    ),
+    'assigned_user_name' => 
+    array (
+      'width' => '8',
+      'label' => 'LBL_LIST_ASSIGNED_USER',
+    ),
+    'width' => '10%',
+    'default' => false,
+  ),
+  'assigned_user_name' => 
+  array (
+    'width' => '8%',
+    'label' => 'LBL_LIST_ASSIGNED_USER',
+    'name' => 'assigned_user_name',
+    'default' => false,
+  ),
+  'score_delivery' => 
+  array (
+    'type' => 'int',
+    'label' => 'LBL_SCORE_DELIVERY',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'score_delivery',
+  ),
+  'score_content' => 
+  array (
+    'type' => 'int',
+    'label' => 'LBL_SCORE_CONTENT',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'score_content',
+  ),
+  'date_modified' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_DATE_MODIFIED',
+    'name' => 'date_modified',
+    'default' => false,
+  ),
+  'searchfields' => 
+  array (
+    'date_entered' => 
+    array (
+      'default' => '',
+    ),
+    'date_modified' => 
+    array (
+      'default' => '',
+    ),
+    'assigned_user_id' => 
+    array (
+      'type' => 'assigned_user_name',
+      'default' => 'Administrator',
+    ),
+    'width' => '10%',
+    'default' => false,
+    'name' => 'searchfields',
+  ),
+  'created_by' => 
+  array (
+    'width' => '8%',
+    'label' => 'LBL_CREATED',
+    'name' => 'created_by',
+    'default' => false,
+  ),
+);
