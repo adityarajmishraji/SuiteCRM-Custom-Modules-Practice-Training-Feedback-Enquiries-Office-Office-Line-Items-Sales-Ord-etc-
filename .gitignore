@@ -1,0 +1,30 @@
+# Cache and logs
+cache/
+logs/
+upload/
+custom/modules/*/Ext/
+install.log
+
+# Config files with sensitive data
+config.php
+config_override.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
+
+# Node modules
+node_modules/
+
+# Composer
+vendor/
