@@ -1,0 +1,32 @@
+{
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "jQuery",
+    "PHP",
+    "MySQL",
+    "MongoDB",
+    "ReactJS",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "jenkins"
+  ],
+  "education": [
+    {
+      "degree": "BCA",
+      "institution": "GM Bilakhia College",
+      "year": "2023"
+    },
+    {
+      "degree": "MCA",
+      "institution": "SP University",
+      "year": "2025"
+    },
+    {
+      "degree": "B.Tech",
+      "institution": "MIT College",
+      "year": "2026"
+    }
+  ]
+}
